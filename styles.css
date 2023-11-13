@@ -41,9 +41,6 @@ li a {
     text-align: left;
 }
 
-.space{
-    margin: 50px;
-}
 /* Style the scroll-to-top button */
 .scroll-to-top {
     display: none;
@@ -78,7 +75,6 @@ li a {
     margin-top: 5px;
     color: white;
     border-radius: 10px;
-    margin-top: 25px;
 }
 
 .Title-of-sec {
@@ -88,6 +84,12 @@ li a {
 .Msg {
     font-size: medium;
     padding: 20px;
+}
+
+/* youtube-videos */
+.youtube-video {
+    width: 700px;
+    height: 350px;
 }
 
 /* footer */
@@ -195,4 +197,9 @@ footer {
         margin-top: 10px;
     }
 
+    .youtube-video {
+        width: 300px;
+        height: 150px;
+    }
+    
 }
